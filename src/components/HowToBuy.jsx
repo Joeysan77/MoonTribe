@@ -54,7 +54,7 @@ export default function HowToBuy() {
 function Step({icon, title , desc}) {
     return (
     <ScrollReveal>
-        <div className="rounded-xl py-3 my-10 shadow-xl shadow-white/10 w90 wpri-sm border border-white/10">
+        <div className="hover:scale-[103%] rounded-xl py-3 my-10 shadow-xl hover:shadow-2xl hbwpri-lg hover:shadow-white/20 shadow-white/10 w90 wpri-sm border border-white/10">
             <div className="flex center my-3">
                    <i className={`fas ${icon} twpri text-3xl text-center`}></i>
             </div>

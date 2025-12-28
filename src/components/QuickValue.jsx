@@ -53,7 +53,7 @@ function Tag({icon, title, desc}) {
     return (
     
     <ScrollReveal>
-        <div className="w90 border border-white/10 shadow-xl shadow-white/10 my-10 rounded-xl wpri-xs">
+        <div className="w90 border border-white/10 shadow-xl shadow-white/10 my-10 rounded-xl wpri-xs hover:-translate-y-1 hover:shadow-white/20">
             <i className={` fas ${icon} text-2xl p-4 twpri`}></i>
             <p className="w90 text-lg font-medium">{title}</p>
             <p className="w90 text-sm my-3 text-white/50">{desc}</p>

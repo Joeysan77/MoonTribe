@@ -1,18 +1,26 @@
 export default function Menu({show}) {
     return (
-        <div className={`${show ? 'h-[200px]' : ' h-0 opacity-0 pointer-events-none'} `}>
+        <div className={`${show ? 'h-[270px]' : ' h-0 opacity-0 pointer-events-none'} pt-3  `}>
+            
+            
+            <Button
+            text="Home"
+            />
+            
+            <Button
+            text="Tokenomics"
+            />
             
             <Button
             text="How to Buy"
             />
             
+            
             <Button
             text="About us"
             />
             
-            <Button
-            text="Settings"
-            />
+            
             
             <div className="flex w80 my-5 between">
                 <Links
